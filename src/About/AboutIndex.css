@@ -1,0 +1,508 @@
+.About-title {
+    text-align: center;
+    margin-top: 10vh;
+    border-bottom: 1px solid hsl(0, 12%, 97%);
+    font-family: 'Script', 'Times New Roman';
+    color: hsl(125, 19%, 86%);
+}
+
+.EduCardContainer {
+    background-image: url('../assets/bubbleBackground.jpeg');
+    align-items: center;
+    max-width: 30%;
+    height: 450px;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid hsl(120, 18%, 13%);
+    box-shadow: 5px 5px 5px hsla(0, 0%, 5%, 0.1);
+    border-radius: 10px;
+    text-align: left;
+    float: left;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.EduCard {
+    background-color: aliceblue;
+    max-width: 100%;
+    height: 425px;
+    flex: 1;
+    padding: 20px;
+    margin: 0;
+    border: 5px solid hsl(148, 21%, 14%);
+    border-radius: 10px;
+    text-align: center;
+    float: left;
+    width: 77%;
+}
+
+
+.Edu-Title {
+    margin: 0;
+    color: hsl(128, 15%, 11%);
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.Edu-Text {
+    margin: 0;
+    color: hsl(128, 15%, 11%);
+    font-size: 17px;
+    overflow-y: scroll;
+    max-height: 300px;
+    text-align: left;
+    padding: 10px;
+}
+.EduCard:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+}
+
+
+.MePic {
+    margin: 10px;
+    border: 5px solid #ccc;
+    float: right;
+    width: 180px;
+}
+
+.MePic:hover {
+    border: 10px solid #043120;
+    transition: ease-in-out 0.3s;
+    transform: scale(1.1);
+}
+
+.MePic img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.GryphonPic {
+    margin: 10px;
+    border: 5px solid #ccc;
+    float: right;
+    width: 180px;
+}
+
+.GryphonPic:hover {
+    border: 10px solid #043120;
+    transition: ease-in-out 0.3s;
+    transform: scale(1.1);
+}
+
+.GryphonPic img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.UogPic {
+    margin: 10px;
+    border: 5px solid #ccc;
+    float: right;
+    width: 180px;
+}
+
+.UogPic:hover {
+    border: 10px solid #043120;
+    transition: ease-in-out 0.3s;
+    transform: scale(1.1);
+}
+
+.UogPic img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.LouisPic {
+    margin: 10px;
+    border: 5px solid #ccc;
+    float: right;
+    width: 180px;
+}
+
+.LouisPic:hover {
+    border: 10px solid #043120;
+    transition: ease-in-out 0.3s;
+    transform: scale(1.1);
+}
+
+.LouisPic img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.GradPic {
+    margin: 10px;
+    border: 5px solid #ccc;
+    float: right;
+    width: 180px;
+}
+
+.GradPic:hover {
+    border: 10px solid #043120;
+    transition: ease-in-out 0.3s;
+    transform: scale(1.1);
+}
+
+.GradPic img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.OrientPic {
+    margin: 10px;
+    border: 5px solid #ccc;
+    float: right;
+    width: 180px;
+}
+
+.OrientPic:hover {
+    border: 10px solid #043120;
+    transition: ease-in-out 0.3s;
+    transform: scale(1.1);
+}
+
+.OrientPic img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+    color: hsl(120, 100%, 99%);
+}
+
+.image-grid {
+    background-color: rgb(7, 35, 9);
+    border:3px solid hsl(120, 11%, 95%);
+    display: grid;
+    border-radius: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    padding: 10px;
+    margin: 10px;
+}
+
+.image-grid img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+
+.QuestionMarkCard {
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    text-align: right;
+}
+
+.QuestionPic {
+    float: right;
+    margin: 10px;
+    border: 5px solid #0a2c1e;
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    display: block;
+    margin: 0;
+}
+
+.QuestionPic:hover {
+    border: 10px solid #043120;
+    transition: ease-in-out 0.3s;
+    transform: scale(1.05);
+}
+
+.DiffCardContainer {
+    background-image: url('../assets/bubbleBackground.jpeg');
+    align-items: center;
+    max-width: 30%;
+    height: 450px;
+    flex: 1;
+    margin: 20px;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid hsl(120, 18%, 13%);
+    box-shadow: 5px 5px 5px hsla(0, 0%, 5%, 0.1);
+    border-radius: 10px;
+    text-align: left;
+    float: right;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.DiffCard {
+    background-color: aliceblue;
+    max-width: 100%;
+    height: 425px;
+    flex: 1;
+    padding: 20px;
+    margin: 0;
+    border: 5px solid hsl(148, 21%, 14%);
+    border-radius: 10px;
+    text-align: center;
+    float: right;
+    width: 77%;
+}
+
+
+.Diff-Title {
+    margin: 0;
+    color: hsl(128, 15%, 11%);
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.Diff-Text {
+    margin: 0;
+    color: hsl(128, 15%, 11%);
+    text-align: left;
+    height: 350px;
+    overflow-y: scroll;
+}
+.DiffCard:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+}
+
+.FFCardContainer {
+    background-image: url('../assets/bubbleBackground.jpeg');
+    align-items: center;
+    max-width: 30%;
+    height: 220px;
+    flex: 1;
+    margin: 20px;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid hsl(120, 18%, 13%);
+    box-shadow: 5px 5px 5px hsla(0, 0%, 5%, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    float: left;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.FFCard {
+    background-color: aliceblue;
+    max-width: 100%;
+    height: 200px;
+    flex: 1;
+    padding: 20px;
+    margin: 0;
+    border: 5px solid hsl(148, 21%, 14%);
+    border-radius: 10px;
+    text-align: center;
+    float: center;
+    width: 77%;
+}
+
+.FF-Title {
+    margin: 0;
+    color: hsl(128, 15%, 11%);
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.FFCard:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+}
+
+.GTCardContainer {
+    background-image: url('../assets/bubbleBackground.jpeg');
+    align-items: center;
+    width: 40%;
+    height: 450px;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid hsl(120, 18%, 13%);
+    box-shadow: 5px 5px 5px hsla(0, 0%, 5%, 0.1);
+    border-radius: 10px;
+    text-align: left;
+    float: right;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.GTCard {
+    background-color: aliceblue;
+    width: 100%;
+    height: 425px;
+    flex: 1;
+    padding: 20px;
+    margin: 0;
+    border: 5px solid hsl(148, 21%, 14%);
+    border-radius: 10px;
+    text-align: center;
+    float: left;
+    width: 77%;
+}
+
+
+.GT-Title {
+    margin: 0;
+    color: hsl(128, 15%, 11%);
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.GT-Text {
+    margin: 0;
+    color: hsl(128, 15%, 11%);
+    width: 100%;
+    font-size: 17px;
+    height: 200px;
+    overflow-y: auto;
+}
+
+.GTCard:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+}
+
+.arrowPic {
+    width: 100px;
+    height: 100px;
+    float: right;
+    transform: translateY(200px);
+    margin-right: 20%;
+}
+
+.SMCardContainer {
+    background-image: url('../assets/bubbleBackground.jpeg');
+    align-items: center;
+    width: 30%;
+    height: 450px;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid hsl(120, 18%, 13%);
+    box-shadow: 5px 5px 5px hsla(0, 0%, 5%, 0.1);
+    border-radius: 10px;
+    text-align: left;
+    float: left;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.SMCard {
+    background-color: aliceblue;
+    max-width: 100%;
+    height: 425px;
+    flex: 1;
+    padding: 20px;
+    margin: 0;
+    border: 5px solid hsl(148, 21%, 14%);
+    border-radius: 10px;
+    text-align: center;
+    float: center;
+    width: 77%;
+}
+
+.SM-Title {
+    margin: 0;
+    color: hsl(128, 15%, 11%);
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.SM-Text {
+    margin: 0;
+    color: hsl(128, 15%, 11%);
+    width: 100%;
+    font-size: 17px;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.SMCard:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+}
+
+hr {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+/* General styles for larger screens */
+@media (min-width: 768px) {
+    .FFCard{
+        max-width: 70%;
+    }
+.GTCardContainer, .SMCardContainer {
+    max-width: 50%;
+    height: 300px;
+    margin: 20px;
+}
+.GTCard, .SMCard {
+    width: 77%;
+    height: 280px;
+}
+    .MePic, .GryphonPic, .UogPic, .LouisPic, .GradPic, .OrientPic {
+        width: 180px;
+    }
+
+    .QuestionPic {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+/* Adjustments for medium screens */
+@media (max-width: 768px) {
+    .FFCard{
+        max-width: 70%;
+    }
+.GTCardContainer, .SMCardContainer {
+    max-width: 50%;
+    height: 300px;
+    margin: 20px;
+    
+}
+.GTCard, .SMCard {
+    width: 77%;
+    height: 280px;
+}
+    .MePic, .GryphonPic, .UogPic, .LouisPic, .GradPic, .OrientPic {
+        width: 140px;
+    }
+
+    .arrowPic {
+        width: 80px;
+        height: 80px;
+        float: right;
+        transform: translateY(300px);
+        margin-right: 20%;
+    }
+
+    .QuestionPic {
+        width: 250px;
+        height: 250px;
+    }
+
+    .Edu-Title, .Diff-Title, .FF-Title, .GT-Title, .SM-Title {
+        font-size: 20px;
+    }   
+    .Edu-Text, .Diff-Text, .FF-Text, .GT-Text, .SM-Text {
+        font-size: 15px;
+    }
+}
+

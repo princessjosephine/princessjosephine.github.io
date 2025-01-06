@@ -1,0 +1,126 @@
+.Home-title {
+    text-align: center;
+    margin-top: 118px;
+    border-bottom: 1px solid hsl(0, 12%, 97%);
+    font-family: 'Script', 'Times New Roman';
+    color: hsl(125, 19%, 86%);
+}
+
+
+.PhotoCardContainer {
+    background-image: url('../assets/bubbleBackground.jpeg');
+    width: 70%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid hsl(120, 18%, 13%);
+    box-shadow: 5px 5px 5px hsla(0, 0%, 5%, 0.1);
+    border-radius: 10px;
+    text-align: left;
+    float: right;
+}
+
+.PhotoCard {
+    background-color: aliceblue;
+    max-width: 50%;
+    flex: 1;
+    /* Allow the card to take up all remaining space */
+    padding: 20px;
+    border: 5px solid hsl(148, 21%, 14%);
+    border-radius: 10px;
+    text-align: left;
+    /* Ensure text aligns to the left */
+}
+
+.PhotoCard:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+}
+
+.profilePic-Image {
+    width: 30%;
+    border: 5px solid hsl(150, 23%, 17%);
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+
+}
+
+.profilePic-Image:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+.profilePic-Title {
+    font-family: 'Script', 'Times New Roman';
+    margin: 0 0 10px 0;
+    /* Add spacing below the title */
+    color: hsl(128, 15%, 11%);
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.profilePic-Text {
+    margin: 0;
+    color: hsl(128, 15%, 11%);
+    font-size: 17px;
+}
+
+.IntroCardContainer {
+    background-image: url('../assets/bubbleBackground.jpeg');
+    align-items: center;
+    width: 60%;
+    height: 20%;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 350px;
+    border: 3px solid hsl(120, 18%, 13%);
+    box-shadow: 5px 5px 5px hsla(0, 0%, 5%, 0.1);
+    border-radius: 10px;
+    text-align: left;
+    float: center;
+}
+
+
+.IntroCard {
+    background-color: aliceblue;
+    max-width: 85%;
+    margin: 10px;
+    flex: 1;
+    /* Allow the card to take up all remaining space */
+    padding: 20px;
+    border: 5px solid hsl(148, 21%, 14%);
+    border-radius: 10px;
+    text-align: left;
+}
+
+.Intro-Title {
+    font-family: 'Script', 'Times New Roman';
+    margin: 0 0 10px 0;
+    /* Add spacing below the title */
+    color: hsl(128, 15%, 11%);
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.Intro-Text {
+    margin: 0;
+    color: hsl(128, 15%, 11%);
+    font-size: 17px;
+}
+
+.IntroCard:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+}
+
+
