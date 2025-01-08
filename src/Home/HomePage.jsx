@@ -6,7 +6,7 @@ import './Homeindex.css'
 
 function HomePage(){
   const backgroundStyle = {
-    backgroundImage: `url(${generalBackground})`,
+    backgroundColor: '#ffffff',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',

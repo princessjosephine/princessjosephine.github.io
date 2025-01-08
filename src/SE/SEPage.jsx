@@ -10,11 +10,11 @@ import './SEIndex.css'
 import generalBackground from '../assets/generalBackground.jpeg'
 function SEPage() {
     const backgroundStyle = {
-        backgroundImage: `url(${generalBackground})`,
+        backgroundColor: '#ffffff',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
-        height: '250vh'
+        height: '300vh'
     };
 
 

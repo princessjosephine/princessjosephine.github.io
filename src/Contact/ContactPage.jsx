@@ -4,7 +4,7 @@ import './ContactIndex.css'
 import generalBackground from '../assets/generalBackground.jpeg'
 function ContactPage() {
     const backgroundStyle = {
-        backgroundImage: `url(${generalBackground})`,
+        backgroundColor: '#fffff',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',

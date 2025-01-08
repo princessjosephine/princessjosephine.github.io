@@ -3,7 +3,6 @@ function SkillCard() {
         <div className="SkillCardContainer">
             <div className="SkillCard">
                 <h2 className="Skill-Title">Skills</h2>
-                <br></br>
                 <p className="Skill-Text">
                     <li><b>Programming Languages:</b></li>
                     <br></br>

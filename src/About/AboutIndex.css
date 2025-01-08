@@ -1,9 +1,9 @@
 .About-title {
     text-align: center;
-    margin-top: 10vh;
-    border-bottom: 1px solid hsl(0, 12%, 97%);
+    margin-top: 16%;
+    border-bottom: 1px solid #204528;
     font-family: 'Script', 'Times New Roman';
-    color: hsl(125, 19%, 86%);
+    color: #204528;
 }
 
 .EduCardContainer {
@@ -279,10 +279,10 @@
     transform: scale(1.05);
 }
 
-.FFCardContainer {
+.FunFactCardContainer {
     background-image: url('../assets/bubbleBackground.jpeg');
     align-items: center;
-    max-width: 30%;
+    width: 30%;
     height: 220px;
     flex: 1;
     margin: 20px;
@@ -298,9 +298,9 @@
     margin-bottom: 50px;
 }
 
-.FFCard {
-    background-color: aliceblue;
-    max-width: 100%;
+.FunFactCard {
+    background-color: rgb(239, 243, 246);
+    width: 90%;
     height: 200px;
     flex: 1;
     padding: 20px;
@@ -309,17 +309,15 @@
     border-radius: 10px;
     text-align: center;
     float: center;
-    width: 77%;
 }
 
-.FF-Title {
+.FunFact-Title {
     margin: 0;
     color: hsl(128, 15%, 11%);
     font-size: 25px;
-    text-decoration: underline;
-}
+    text-decoration: underline;}
 
-.FFCard:hover {
+.FunFactCard:hover {
     transition: transform 0.3s ease;
     transform: scale(1.05);
 }
@@ -442,34 +440,10 @@ hr {
     margin: 0 auto;
 }
 
-/* General styles for larger screens */
-@media (min-width: 768px) {
-    .FFCard{
-        max-width: 70%;
-    }
-.GTCardContainer, .SMCardContainer {
-    max-width: 50%;
-    height: 300px;
-    margin: 20px;
-}
-.GTCard, .SMCard {
-    width: 77%;
-    height: 280px;
-}
-    .MePic, .GryphonPic, .UogPic, .LouisPic, .GradPic, .OrientPic {
-        width: 180px;
-    }
-
-    .QuestionPic {
-        width: 350px;
-        height: 350px;
-    }
-}
-
 /* Adjustments for medium screens */
 @media (max-width: 768px) {
-    .FFCard{
-        max-width: 70%;
+    .FunFactCard{
+        width: 70%;
     }
 .GTCardContainer, .SMCardContainer {
     max-width: 50%;
@@ -485,13 +459,6 @@ hr {
         width: 140px;
     }
 
-    .arrowPic {
-        width: 80px;
-        height: 80px;
-        float: right;
-        transform: translateY(300px);
-        margin-right: 20%;
-    }
 
     .QuestionPic {
         width: 250px;
@@ -500,9 +467,21 @@ hr {
 
     .Edu-Title, .Diff-Title, .FF-Title, .GT-Title, .SM-Title {
         font-size: 20px;
-    }   
+    }
     .Edu-Text, .Diff-Text, .FF-Text, .GT-Text, .SM-Text {
+        height: 70%;
         font-size: 15px;
+    }
+
+    .DiffCardContainer {
+        width: 50%;
+        height: 10%;
+        margin: 20px;
+    }
+
+    .DiffCard {
+        width: 77%;
+        height: 90%;
     }
 }
 

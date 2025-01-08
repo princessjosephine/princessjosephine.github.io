@@ -21,8 +21,25 @@ function TExpCard() {
                     <br></br>
                     <li><b>Portfolio Website (Jan. 2023)</b></li>
                     <br></br>
-                    <p>-	Created a responsive portfolio website to showcase my skills and projects.</p>
+                    <p>-	Created a  portfolio web application to showcase my skills and projects.</p>
                     <p>-	Utilized self-taught HTML, CSS, and JavaScript to design and develop a basic website to display my work.</p>
+
+                    <br></br>
+                    <li><b>Discussion Posts Board Application (Sept. 2024)</b></li>
+                    <br></br>
+                    <p>-	Used Java programming language to develop a discussion board program featuring thread creation,
+                        message posting, and keyword search functionality.</p>
+
+                    <br></br>
+                    <li><b>Python Game (Oct. 2022)</b></li>
+                    <br></br>
+                    <p>-	Created a basic python game that allowed users to play a game of tic-tac-toe against a computer.</p>
+
+                    <br></br>
+                    <li><b>Statistics Canada Data Analysis Project</b></li>
+                    <br></br>
+                    <p>-	Worked with a group of 3 peers to design and implement an SQL-based program for tabular
+                        analysis of national emploumentdata sets and graph the correlations for visualization.</p>
                 </p>
             </div>
         </div>

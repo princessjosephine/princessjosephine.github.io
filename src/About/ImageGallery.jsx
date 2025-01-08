@@ -48,7 +48,7 @@ function ImageGallery() {
                 <a>
                     <img src={orientationIcon} alt="orientationIcon"></img>
                 </a>
-                <div className="desc">The University of Guelph front with the </div>
+                <div className="desc">The University of Guelph front with the logo </div>
             </div>
         </div>
     )

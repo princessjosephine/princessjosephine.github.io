@@ -10,7 +10,7 @@ import './AboutIndex.css'
 import generalBackground from '../assets/generalBackground.jpeg'
 function AboutPage() {
     const backgroundStyle = {
-        backgroundImage: `url(${generalBackground})`,
+        backgroundColor: '#ffffff',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
